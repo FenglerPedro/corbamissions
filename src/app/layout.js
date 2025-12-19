@@ -1,4 +1,17 @@
 import "./globals.css";
+import { Oswald, Inter } from "next/font/google";
+
+const oswald = Oswald({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-oswald",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-inter",
+});
 
 export const metadata = {
   title: "Corbã Missions - Ide por Todo Mundo",
@@ -25,7 +38,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className={`${oswald.variable} ${inter.variable}`}>
       <body className="antialiased">
         {children}
       </body>
