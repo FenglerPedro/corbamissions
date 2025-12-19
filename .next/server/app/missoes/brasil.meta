@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/missoes/layout,_N_T_/missoes/brasil/layout,_N_T_/missoes/brasil/page,_N_T_/missoes/brasil"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/missoes/brasil/__PAGE__",
+    "/missoes/brasil",
+    "/missoes",
+    "/_index",
+    "/_head"
+  ]
+}

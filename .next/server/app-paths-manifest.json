@@ -1,0 +1,10 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/contato/page": "app/contato/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/missoes/australia/page": "app/missoes/australia/page.js",
+  "/missoes/brasil/page": "app/missoes/brasil/page.js",
+  "/page": "app/page.js",
+  "/sobre/page": "app/sobre/page.js"
+}
