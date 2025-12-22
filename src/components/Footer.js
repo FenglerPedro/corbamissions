@@ -38,6 +38,11 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
+                                <Link href="/podcast" className="text-background/70 hover:text-primary transition-colors">
+                                    Podcast
+                                </Link>
+                            </li>
+                            <li>
                                 <div className="text-background/50 text-sm mb-2">Missões</div>
                                 <ul className="pl-4 space-y-2 border-l border-background/20">
                                     <li>
@@ -66,7 +71,7 @@ const Footer = () => {
                         <ul className="space-y-3">
                             <li className="flex items-center gap-2 text-background/70">
                                 <MapPin className="w-4 h-4 text-primary" />
-                                <span>Porto Alegre, RS - Brasil</span>
+                                <span>Carazinho, RS - Brasil</span>
                             </li>
                             <li className="flex items-center gap-2 text-background/70">
                                 <MapPin className="w-4 h-4 text-primary" />
@@ -74,7 +79,7 @@ const Footer = () => {
                             </li>
                             <li className="flex items-center gap-2 text-background/70">
                                 <Mail className="w-4 h-4 text-primary" />
-                                <span>contato@corbamissions.org</span>
+                                <span>corbamissions@gmail.com</span>
                             </li>
                         </ul>
                     </div>

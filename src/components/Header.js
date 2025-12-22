@@ -103,6 +103,16 @@ const Header = () => {
                     </DropdownMenu>
 
                     <Link
+                        href="/podcast"
+                        className={cn(
+                            buttonVariants({ variant: "ghost" }),
+                            "rounded-full text-muted-foreground hover:text-foreground hover:bg-muted/50",
+                            scrolled ? "px-4 py-2 text-sm" : "px-5 py-2"
+                        )}
+                    >
+                        Podcast
+                    </Link>
+                    <Link
                         href="/contato"
                         className={cn(
                             buttonVariants({ variant: "ghost" }),
@@ -182,6 +192,13 @@ const Header = () => {
                             </Link>
                         </div>
 
+                        <Link
+                            href="/podcast"
+                            className="text-2xl font-medium text-foreground hover:text-primary transition-colors"
+                            onClick={closeMenu}
+                        >
+                            Podcast
+                        </Link>
                         <Link
                             href="/contato"
                             className="text-2xl font-medium text-foreground hover:text-primary transition-colors"
